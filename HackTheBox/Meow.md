@@ -19,4 +19,4 @@ The machine accepted the username root with a blank password.
 
 Task 8 was to find the root flag.
 ![alt text](<images/2025-02-24 20_46_00-HTB Viewer.png>)
-On checking the files we find flag.txt which containts the said root flag.
+On checking the files we find flag.txt which contains the needed root flag.
