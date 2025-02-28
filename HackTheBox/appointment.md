@@ -16,11 +16,13 @@ task 10 is to use sql injection to enter username and put # after it making the 
 We can do this through browser or through the terminal itself. I've done both.
 
 **Browser**
+
 Simply enter the username as admin'#
 ![alt text](images/appointment_3.png)
 Then after login we get the page...
 ![alt text](images/appointment_4.png)
 
 **Terminal**
+
 Use "curl" and put the username=admin'#
 ![alt text](images/appointment_5.png)
