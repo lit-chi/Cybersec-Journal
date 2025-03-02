@@ -34,7 +34,7 @@ we know that there exists a login page. So we go to the site http://10.129.50.22
 ![alt text](images/crocodile_8.png)
 
 We need username and password. If we recall, we had got a file allowed.userlist from ftp server. We had a password file in that server too. So we go and install that. Therby getting username and password.
-![alt text](images/crocodile_8.png)
+![alt text](images/crocodile_7.png)
 we have the last username as admin and the last password in the password file would be it's password.
 ![alt text](images/crocodile_9.png)
 We are redirected to a site. There the flag is given. Therefore flag obtained.
