@@ -17,15 +17,19 @@ To fix this, we manually add an entry in /etc/hosts specifying that requests to 
 So, first add the host name in the file.
 use nano /etc/hosts to open the file,
 ![alt text](images/responder_4.png)
+
 Now enter the host name into it.
 ![alt text](images/responder_5.png)
+
 On reloading the site now we get...
 ![alt text](images/responder_3.png)
 
 We use the page URL parameter to load different language versions of the webpage (task 3).
 Just add ?page=german.html to the URL
+
 ![alt text](images/responder_7.png)
 and now we get the page in German
+
 ![alt text](images/responder_8.png)
 
 task 4: the option which exploits a LFI(Local File Include) vulnerability is the third option -> "../../../../../../../../windows/system32/drivers/etc/hosts"
