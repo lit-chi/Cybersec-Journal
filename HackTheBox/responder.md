@@ -19,6 +19,7 @@ use nano /etc/hosts to open the file,
 ![alt text](images/responder_4.png)
 
 Now enter the host name into it.
+
 ![alt text](images/responder_5.png)
 
 On reloading the site now we get...
