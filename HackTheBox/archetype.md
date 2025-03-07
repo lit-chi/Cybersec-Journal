@@ -3,6 +3,7 @@ It's based on mysql, smb ,powershell...
 
 Let's first connect to the network and check if the system is running.
 ![alt text](images/archetype_1.png)
+
 As we can see the ping is succesfull so we know our machine is up and running.
 
 task1:
@@ -45,10 +46,13 @@ I've tried listing the directories in the current directory.
 ![alt text](images/archetype_10.png)
 Let's also try a command to see the current user [ whoami ]
 ![alt text](images/archetype_11.png)
+
 As we can see xp_cmdshell is working successfully now.
 
 We will also establish a reverse shell using netcat.
+
 ![alt text](images/archetype_12.png)
+
 we've succesfully established a reverse shell.
 
 
@@ -56,6 +60,7 @@ task6:
 To search possible paths to escalate windows privilages we use the WinPEAS script.
 we install it on our machine then send it to our target using curl or wget. Then we run it there.
 ![alt text](images/archetype_14.png)
+
 Now for me on running winPEAS script unlike other walkthroughs I didn't get the file under the file analysis.
 But if we scan through the data closely we find that the powershell setting section has the path for a powershell
 history file which is intersting.
@@ -72,4 +77,5 @@ console_history.txt.
 We successfully manage to connect.
 Now generally the flags are in the Desktop so let's check there.
 ![alt text](images/archetype_18.png)
+
 We get the root.txt there as expected and on checking the contents we can get the flag.
