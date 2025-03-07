@@ -3,14 +3,18 @@ It's diffculty is very easy.
 Our task is to find and submit a flag.
 
 We begin by getting our host address.
+
 ![alt text](images/onlyhacks_4.png)
 
 Now on entering this into a browser we are taken to this site.
+
 ![alt text](images/onlyhacks_1.png)
 
 Entering values and trying to log in didn't take me anywhere so i'm going to try to signup.
 ![alt text](images/onlyhacks_2.png)
+
 But when i enter this in it says user already exists.
+
 ![alt text](images/onlyhacks_3.png)
 I tried repeating the sign in with a profile picture( i hadn't used one ealier), and now the sign in works.
 We are now taken to this site...
@@ -20,12 +24,16 @@ On going through the site i see a chat window for chatting with a user called Re
 ![alt text](images/onlyhacks_6.png)
 
 I will try to type some messages.
+
 ![alt text](images/onlyhacks_7.png)
+
 I tried tying some random words( wierd i know)..but as expected it didn't lead to anything. The responses are all sent in a same cycle.
 Well...I was wrong about the responses being generated in a repeated cycle. There is some AI being used to generate the responses.
 
 THe chat accepts html so if i try to send something like...
+
 ![alt text](images/onlyhacks_8.png)
+
 That was  < u >hi< u >
 
 Now we will create a request bin and get the request by sending the address on the request bin site throught the chatbox we have on the only hacks site. 
