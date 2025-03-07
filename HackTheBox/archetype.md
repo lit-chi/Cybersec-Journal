@@ -47,6 +47,29 @@ Let's also try a command to see the current user [ whoami ]
 ![alt text](images/archetype_11.png)
 As we can see xp_cmdshell is working successfully now.
 
+We will also establish a reverse shell using netcat.
+![alt text](images/archetype_12.png)
+we've succesfully established a reverse shell.
+
+
 task6: 
 To search possible paths to escalate windows privilages we use the WinPEAS script.
+we install it on our machine then send it to our target using curl or wget. Then we run it there.
+![alt text](images/archetype_14.png)
+Now for me on running winPEAS script unlike other walkthroughs I didn't get the file under the file analysis.
+But if we scan through the data closely we find that the powershell setting section has the path for a powershell
+history file which is intersting.
+![alt text](images/archetype_15.png)
+If we check the contents of that file we see that it has a admin username and password.
+![alt text](images/archetype_16.png)
 
+our user flag is in the desktop which we can go throught the reverse shell we made.
+![alt text](images/archetype_13.png)
+
+For our root flag let's try to connect as administrator using that username and password we found in the 
+console_history.txt.
+![alt text](images/archetype_17.png)
+We successfully manage to connect.
+Now generally the flags are in the Desktop so let's check there.
+![alt text](images/archetype_18.png)
+We get the root.txt there as expected and on checking the contents we can get the flag.
