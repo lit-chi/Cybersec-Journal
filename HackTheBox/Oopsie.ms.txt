@@ -1,5 +1,0 @@
-This is the oopsie challenge from starting point tier 2. It's difficulty is also very easy as all the others.
-
-First we connect using openVPN and use ifconfig to confirm the same.
-Now we need to start our target machine. Let's check if the machine is up and running too.
-HackTheBox/images/three_13.png
