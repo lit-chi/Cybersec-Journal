@@ -2,7 +2,9 @@ This is the oopsie challenge from starting point tier 2. It's difficulty is also
 
 First we connect using openVPN and use ifconfig to confirm the same.
 Now we need to start our target machine. Let's check if the machine is up and running too.
+
 ![alt text](images/oopsie_1.png)
+
 Our machine is up and running so let's continue on with the tasks.
 
 task1:
@@ -55,19 +57,26 @@ in that if we search for passw using grep we can try to find matching lines with
 
 if we navigate to the /etc/ folder we see a passwd file...
 on opening that
+
 ![alt text](images/oopsie_13.png)
+
 we can find a user called robert at the bottom. So we now try to login as robert..
 When we try to enter the password with the one we found earlier however, it registers as a failure..
 ![alt text](images/oopsie_14.png)
 
 while searching for the password i stumbled upon a robert folder which had the user.txt (user flag)
+
 ![alt text](images/oopsie_15.png)
+
 flag-> f2c74ee8db7983851ab2a96a44eb7981
 
 We find our password in the db.php file in the login folder..
+
 ![alt text](images/oopsie_16.png)
 On using that password we are able to succesfully enter...
+
 ![alt text](images/oopsie_17.png)
+
 therefore the password was in file db.php
 
 task7:
