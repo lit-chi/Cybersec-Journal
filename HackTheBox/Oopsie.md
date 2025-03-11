@@ -48,6 +48,7 @@ After uploading the file through our uploads we enter the file location url and 
 we will now have our reverse shell..
 ![alt text](images/oopsie_10.png)
 
+task6:
 On going throught the folder we get to a login folder in var/www/html
 in that if we search for passw using grep we can try to find matching lines with password in it. And we do findd it.
 ![alt text](images/oopsie_12.png)
@@ -69,3 +70,40 @@ On using that password we are able to succesfully enter...
 ![alt text](images/oopsie_17.png)
 therefore the password was in file db.php
 
+task7:
+Let's try to see the information on user robert using 'id' command.
+![alt text](images/oopsie_18.png)
+From this we can see that user Robert belongs to 2 groups... Robert and bugtracker.
+Now to find the files owned by bugtracker group we use "find"
+![alt text](images/oopsie_19.png)
+Therefore we can find a file named bugtrakcer in /usr/bin.
+
+task8:
+I tried finding information about the file bugtracker.
+![alt text](images/oopsie_20.png)
+On seeing i could execute it, i also went ahead and did that and got some binary package hint for a value i gave.
+On giving another value i got...
+![alt text](images/oopsie_21.png)
+We can see that the output returned is the command it tried to execute which was the cat command. It tried to execute that command as "root".
+
+task9:
+The full form of SUID is "set owner user id".
+This permission in linux allows a file to be executed with the permissions of the file's owner. Regardless of the current user.
+
+task10:
+We know that the cat command that is used by bugtracker does not specify the file path fully. We can create a fake cat command to execute instead of the normal cat and then include that in the PATH variable so that our fake cat command (which executes a shell as root) is called by bug tracker.
+Therefore cat is the executable being called in an insecure manner.
+
+The user flag I had found before.
+
+For the root flag we got to enter as root.
+First we check folder's where it's possible to write.
+![alt text](images/oopsie_22.png)
+tmp is the only one where it is possible to do so.
+Navigate to tmp and then write a cat file with bash "/bin/sh" (to run the shell)
+After creating a file cat we give it executable permissions by -> chmod +x /tmp/cat
+We also add the path to the PATH variable so that the tmp folder is searched first and our fake cat file is executed.
+On execution we can see that we are able to launch a shell as root.
+![alt text](images/oopsie_23.png)
+Now as usual the root flag should be in the root folder. So we navigate there. The cat command won't work so we use the less command instead.
+![alt text](images/oopsie_24.png)
