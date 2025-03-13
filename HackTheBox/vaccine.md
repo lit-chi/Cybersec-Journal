@@ -1,7 +1,7 @@
 This is the vaccine.md challenge from hackthebox starting point tier 2. This is also rate very easy, but so far the very easy have been very hard for me in tier 2. We'll see how this one goes.
 
 There are 9 tasks in this so let's begin my first connecting to the network using open vpn and checking if our target machine is up and running.
-[text](vaccine.md)
+![alt text](images/vaccine_1.png)
 Our target is up and running so let's commence with the tasks.
 
 task1: To check this we run a nmap scan.
@@ -57,7 +57,9 @@ using this and ssh let's log in and then go through the privileges the user has.
 The vi program can be run
 
 userflag can be found in the var/lib/postgressql
+
 ![alt text](images/vaccine_15.png)
 
 to find root flag we use vi and enter as root..thereby we can get the rootflag
+
 ![alt text](images/vaccine_17.png)
