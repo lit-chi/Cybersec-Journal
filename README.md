@@ -3,7 +3,7 @@
 Welcome to my Capture The Flag (CTF) journal!  
 This repository contains my solutions to various CTF challenges I've attempted as part of my cybersecurity learning journey. The purpose of this journal is to track the CTFs I solve and help me develop a routine in solving them.
 
-## Each challenge is represented by a folder named after the CTF. Inside each folder, you'll find:
+### Each challenge is represented by a folder named after the CTF. Inside each folder, you'll find:
 
 - **Methodology:** A step-by-step breakdown of the approach I used to capture the flag.
 - **Images:** Screenshots or visuals to illustrate each step in the process.
