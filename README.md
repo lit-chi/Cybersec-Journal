@@ -2,7 +2,7 @@
 
 Welcome to my Cybersecurity Journal!
 
-This repository contains my solutions to a variety of cybersecurity challenges, including Capture The Flag (CTF) problems, PortSwigger Web Security Academy labs, and other hands-on exercises I've completed during my learning journey.
+This repository contains my solutions to a variety of cybersecurity challenges, including Capture The Flag (CTF) problems, Labs, and other hands-on exercises I've completed during my learning journey.
 
 The purpose of this journal is to track my progress, reinforce what I’ve learned, and help me build a consistent problem-solving routine in the field of cybersecurity.
 
