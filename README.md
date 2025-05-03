@@ -1,12 +1,18 @@
-# CTF Journal
+# Cybersec-Journal
 
-Welcome to my Capture The Flag (CTF) journal!!!
-This repository contains my solutions to various CTF challenges I've attempted as part of my cybersecurity learning journey. The purpose of this journal is to track the CTFs I solve and help me develop a routine in solving them.
+Welcome to my Cybersecurity Journal!
 
-### Each challenge is represented by a folder named after the CTF. Inside each folder, you'll find:
+This repository contains my solutions to a variety of cybersecurity challenges, including Capture The Flag (CTF) problems, PortSwigger Web Security Academy labs, and other hands-on exercises I've completed during my learning journey.
 
-- **Methodology:** A step-by-step breakdown of the approach I used to capture the flag.
-- **Images:** Screenshots or visuals to illustrate each step in the process.
-- **Flag:** The final flag I captured (if applicable).
+The purpose of this journal is to track my progress, reinforce what I’ve learned, and help me build a consistent problem-solving routine in the field of cybersecurity.
 
-Feel free to explore the methods and techniques I used to solve these challenges.
+## 🗂 Structure
+
+Each challenge or lab is represented by a folder named after the platform or challenge. Inside each folder, you'll typically find:
+
+- **Methodology:** A step-by-step breakdown of my approach and thought process.
+- **Images:** Screenshots or visuals to support each step of the solution.
+- **Flag/Outcome:** The final result or flag captured (if applicable).
+
+Feel free to explore the solutions and techniques I've documented. 
+
