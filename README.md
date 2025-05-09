@@ -6,7 +6,7 @@ This repository contains my solutions to a variety of cybersecurity challenges, 
 
 The purpose of this journal is to track my progress, reinforce what I’ve learned, and help me build a consistent problem-solving routine in the field of cybersecurity.
 
-> **Note:** Many of these challenges were solved with the help of online resources, writeups, and community forums as part of the learning process.
+    > **Note:** Many of these challenges were solved with the help of online resources, writeups, and community forums as part of the learning process.
 
 ## 🗂 Structure
 

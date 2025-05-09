@@ -1,3 +1,5 @@
+# <u>  SQL injection attack, querying the database type and version on Oracle </u>
+
 This is the third lab under SQL injection and this is Practitioner difficulty.
 
 Here, on starting the lab we are led to a page kind off similar to the previous labs but the difference is that the products are now displayed by text only and not images too.
