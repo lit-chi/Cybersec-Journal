@@ -1,4 +1,4 @@
-# <u> SQL injection attack, querying the database type and version on MySQL and Microsoft  </u>
+#  SQL injection attack, querying the database type and version on MySQL and Microsoft  
 <br>
 <hr>
 <br>
