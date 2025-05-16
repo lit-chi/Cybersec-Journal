@@ -1,6 +1,8 @@
 # SQL injection UNION attack, retrieving multiple values in a single column
-<hr><br>
-    Level: Practioner
+<hr>
+
+<br>
+>    Level: Practioner
 
 <br>
 This lab seems to be quite similar to the previous one. I had to get username and password from the users table in the previous lab. This lab seems to ask the same.<br><br>
