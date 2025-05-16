@@ -1,7 +1,7 @@
 # SQL injection UNION attack, retrieving multiple values in a single column
 <hr><br>
 
-<div style="border: 1px solid black; padding: 10px; margin: 10px;">
+<div style="border: 1px solid white; padding: 10px; margin: 10px;">
 This is a box created with HTML.
 </div>
 <br>
