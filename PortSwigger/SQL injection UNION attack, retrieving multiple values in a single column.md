@@ -1,9 +1,7 @@
 # SQL injection UNION attack, retrieving multiple values in a single column
 <hr><br>
+    Level: Practioner
 
-<div style="border: 1px solid white; padding: 10px; margin: 10px;">
-This is a box created with HTML.
-</div>
 <br>
 This lab seems to be quite similar to the previous one. I had to get username and password from the users table in the previous lab. This lab seems to ask the same.<br><br>
 Anyways, proceeding with the lab. I first access the lab and start burp on the side.<br>
