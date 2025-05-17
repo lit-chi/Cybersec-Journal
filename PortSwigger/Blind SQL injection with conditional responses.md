@@ -4,6 +4,7 @@
 ### Level: Practioner
 <br>
 As we enter the lab, we are directed to this page.<br>
+
 ![alt text](<images/Blind SQL injection with conditional responses_1.png>)
 <br>
 This lab is to demonstrate a blind SQL injection vulnerability. So we cannot see the changes/outputs like we've been doing in the previous labs. Normally you'd see the results of the SQL query on the page but in this you won't see it directly. However you'll have to infer it based on the application behaviour. So things such as UNION attacks aren't valid here. <br>
