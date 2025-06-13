@@ -20,3 +20,5 @@ Now we get that the first row has the username administrator. If we replace user
 <br>And it does!!<br>
 <br>
 And with that the lab is solved. ✔️
+
+    note: In case we need to find another username or maybe the administrator is not the first entry in that table. Then we can set the offset to 0,1,2... and limit to 1. In this lab by default the offset is set to 0 so we get the first entry. This will not work in this lab either as there is a character limit too. But it's just food for thought for the future.
