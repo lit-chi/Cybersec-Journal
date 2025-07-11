@@ -31,5 +31,28 @@ On searching through these packets I come across a series of requests for a logi
 We can use this to access both ssh and ftp. And ssh is the way to go since the aim is to implement a reverse shell that can help us get the flag in the system. That execution of file can be done only in ssh and not in ftp. However I did waste a bit of time in ftp. The user flag i got though and then i went and logged into the ssh session
 ![alt text](images/cap_7.png)
 <br>
-for some reason i'm not able to log into the session right now but I had done it earlier when i completed the lab. After ssh i can access the root and i'm allowed to write into that present folder. I run linpeas in the ssh session and get the information of the ubuntu machine where it is mentioned that python is given permission to changed uid. So i write a script and send it to through ssh and then execute it which changed the uid to 0 that is the id of root which gives me access to the root flag.
-and the machine is done.
+![alt text](images/cap_8.png)
+<br>
+So we've now got into the session as nathan.<br><br>
+I then tried the directly putting linpeas through the link in github.
+![alt text](images/cap_9.png)
+<br>But unfortunately it seems like there isn't an active network connection for the server in question so it's not able to connect to github. I tried checking that by simply pinging github.com and it didn't work.
+<br><br>
+Now that I can't directly put it into my kali machine, I get linpeas.sh from the github repo and then using a bash tcp file transfer send it from my machine to the target machine.
+![alt text](images/cap_10.png)
+<br><br>
+I was able to succesfully execute it and and then i go through the information that linpeas has given me.
+Linpeas says that it marks the critacl vulnerabilities with red and yellow so i look at those first.<br><br>
+I notice this vulnerability,<br>
+![alt text](images/cap_11.png)
+This says that python is allowed to setuid. So python is able to set user id. The userid of root is 0. Therefore running a script which has some commands to change the uid should essentially allow me to become root.<br>
+This is the simple script...the first line is setuid and the second one is restartign shell as root.<br>
+![alt text](images/cap_13.png)
+<br>
+Sending this across..<br>
+![alt text](images/cap_12.png)
+<br>We have successfully become root.<br><br>
+Now on simply going to the root directory we can get the root flag.<br><br>
+![alt text](images/cap_14.png)
+<br><br>
+And the machine is solved. ✔️
